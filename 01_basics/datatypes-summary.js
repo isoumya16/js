@@ -56,3 +56,32 @@ console.log("Hello World!");
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "soumyamajumderdotcom"
+
+let anothername = myYoutubename
+anothername = "myengineering"
+
+// console.log(myYoutubename)
+
+// console.log(anothername)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@bl"
+}
+let userTwo = userOne
+
+userTwo.email = "soumya@gmail.com"
+userTwo.upi = "soumya@bl"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+console.log(userOne.upi);
+console.log(userTwo.upi);
+
